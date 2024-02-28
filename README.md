@@ -6,7 +6,7 @@ This tutorial will walk you through the steps to install and configure Jupyter N
 
 ## Prerequisites
 Before we start, make sure you have the following prerequisites installed on your Termux:
-- Termux app installed on your Android device (download it from [F-Droid](https://f-droid.org/en/packages/com.termux/)
+- Termux app installed on your Android device (download it from [F-Droid](https://f-droid.org/en/packages/com.termux/))
 - Stable internet connection
 
 ## Step 1: Update and Upgrade Termux
