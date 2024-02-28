@@ -17,14 +17,13 @@ apt update -y && apt upgrade -y
 ```
 This command will update the package lists and upgrade any outdated packages on your Termux.
 
-## Step 2: Install Python and Clang
-Next, you need to install Python 3 and the Clang compiler.
+## Step 2: Install Python, Clang, Rust and Binutils
+Next, you need to install Python 3, the Clang and Rust compiler, and Binutils.
 These are essential components for running Jupyter Notebook.
 Run the following command:
 ```bash
-apt install python3 clang -y
+apt install python3 clang rust binutils -y
 ```
-This command will install Python 3 and Clang on your Termux.
 
 ## Step 3: Upgrade pip and Install Required Packages
 Now, let's upgrade the pip package installer to the latest version and install necessary packages for Jupyter Notebook. 
