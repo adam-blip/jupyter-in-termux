@@ -22,14 +22,13 @@ Next, you need to install Python 3, the Clang and Rust compiler, and Binutils.
 These are essential components for running Jupyter Notebook.
 Run the following command:
 ```bash
-apt install python3 clang rust binutils -y
+apt install python3 clang rust cmake binutils -y
 ```
 
 ## Step 3: Upgrade pip and Install Required Packages
 Now, let's upgrade the pip package installer to the latest version and install necessary packages for Jupyter Notebook. 
 Run the following commands:
 ```bash
-pip install --upgrade pip
 pip install wheel cython
 ```
 These commands will upgrade pip to the latest version and install the Wheel and Cython packages.
